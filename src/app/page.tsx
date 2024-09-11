@@ -1,13 +1,7 @@
-// pages/_app.tsx
-import type { AppProps } from 'next/app';
-import Layout from '@/app/layout';
-
-function MyApp({ Component, pageProps }: AppProps) {
+export default function Home() {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <main>
+      <h1>Hello World</h1>
+    </main>
   );
 }
-
-export default MyApp;
